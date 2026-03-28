@@ -1,105 +1,114 @@
 # OpenC-DA2UA
 
-C语言重制版本 [Open-DA2UA](https://github.com/936804292/da2ua)，兼容性更强。
+OpenC-DA2UA is a C middleware that bridges a local OPC-DA server to OPC-UA.
 
-OpenC-DA2UA is a **C language** middleware that bridges **OPC-DA** (Siemens S7 PLCs via [snap7](http://snap7.sourceforge.net/)) and **OPC-UA** (via [open62541](https://open62541.org/)). It is a C remake of the Python Open-DA2UA project with stronger cross-platform compatibility and lower runtime overhead.
+This project is now centered on Windows OPC-DA COM and OPC-UA interoperability:
+- Native OPC-DA COM access (`IOPCServer`, `IOPCItemMgt`, `IOPCSyncIO`)
+- OPC-UA data publish for external clients
+- OPC-UA write-through to OPC-DA items
+- Local web page for OPC-UA port configuration
 
 ---
 
 ## Project Structure
 
-```
+```text
 OpenC-DA2UA/
-├── CMakeLists.txt          # CMake build script
-├── Makefile                # Alternative GNU Make build script
-├── config/
-│   ├── config.json         # Main application configuration
-│   └── nodes.json          # OPC-UA node / PLC tag definitions
-├── src/
-│   ├── main.c              # Entry point – mirrors app.py from Open-DA2UA
-│   ├── config.c/h          # JSON configuration loader
-│   ├── logger.c/h          # Timestamped file logger
-│   ├── opcda_client.c/h    # OPC-DA client (snap7 S7 communication)
-│   └── opcua_server.c/h    # OPC-UA server (open62541)
-├── third_party/
-│   └── cJSON/              # Bundled single-file JSON parser
-├── tests/
-│   ├── test_config.c       # Unit tests for the config module
-│   └── test_logger.c       # Unit tests for the logger module
-├── logs/                   # Runtime log files (auto-created)
-├── security/               # TLS certificates and private keys
-└── docs/
-    └── API.md              # Full API reference
+|-- CMakeLists.txt
+|-- config/
+|   |-- config.json
+|   `-- nodes.json
+|-- docs/
+|   `-- API.md
+|-- src/
+|   |-- main.c
+|   |-- config.c
+|   |-- config.h
+|   |-- logger.c
+|   |-- logger.h
+|   |-- opcda_client.c
+|   |-- opcda_client.h
+|   |-- opcua_server.c
+|   |-- opcua_server.h
+|   |-- web_config.c
+|   `-- web_config.h
+|-- tests/
+|   |-- test_config.c
+|   `-- test_logger.c
+`-- third_party/
+        `-- cJSON/
 ```
 
 ---
 
-## Dependencies
+## Runtime Dependencies
 
-| Library | Purpose | Required? |
-|---------|---------|-----------|
-| [snap7](http://snap7.sourceforge.net/) | Siemens S7 PLC communication (OPC-DA side) | Yes (runtime) |
-| [open62541](https://open62541.org/) | OPC-UA server | Yes (runtime) |
-| [cJSON](https://github.com/DaveGamble/cJSON) | JSON parsing | Bundled |
-| pthreads | Background server thread | System |
+| Component | Purpose |
+|---|---|
+| OPC-DA Server (COM) | Source data service (Kepware / Matrikon / custom DA server) |
+| open62541 | OPC-UA server implementation |
+| cJSON | JSON parsing (bundled) |
+| WinSock2 | Embedded web config page (`127.0.0.1:18080`) |
 
-The code compiles **without** snap7 and open62541 installed (feature flags `HAVE_SNAP7` / `HAVE_OPEN62541` are off by default). This allows you to build and run the tests on any POSIX system.
-
-### Install dependencies (Ubuntu / Debian)
-
-```bash
-# snap7
-sudo apt-get install libsnap7-dev
-
-# open62541 (v1.3+)
-sudo apt-get install libopen62541-dev
-# or build from source: https://github.com/open62541/open62541
-```
+Notes:
+- If `WITH_OPEN62541=OFF`, the program runs in stub mode and does not expose a real OPC-UA endpoint.
+- OPC-DA access in this refactor is primarily `Mode=opcda_com`.
 
 ---
 
 ## Build
 
-### CMake (recommended)
+### Windows (MSVC, recommended)
 
-```bash
-mkdir build && cd build
+1. Ensure your open62541 installation provides:
+- `include/open62541/server.h`
+- `lib/open62541.lib` (or `open62541d.lib`)
 
-# Without optional backends (stub mode – good for tests):
-cmake ..
-make
+2. Set environment variable:
 
-# With snap7 and open62541:
-cmake .. -DWITH_SNAP7=ON -DWITH_OPEN62541=ON
-make
+```powershell
+$env:OPEN62541_ROOT = "D:/deps/open62541"
 ```
 
-### GNU Make
+3. Configure and build:
+
+```powershell
+cmake -S . -B build -DWITH_OPEN62541=ON
+cmake --build build --config Debug
+```
+
+If open62541 cannot be found, CMake prints a stub-mode warning.
+
+### Linux / POSIX (optional)
 
 ```bash
-# Stub mode:
-make
-
-# With both backends:
-make WITH_SNAP7=1 WITH_OPEN62541=1
+cmake -S . -B build -DWITH_OPEN62541=ON
+cmake --build build
 ```
 
 ---
 
 ## Configuration
 
-Edit `config/config.json`:
+### `config/config.json`
 
 ```json
 {
     "OPCDA_CLIENT": {
-        "IP": "192.168.20.219",
-        "DB_Number": "2"
+        "Mode": "opcda_com",
+        "ServerProgID": "Matrikon.OPC.Simulation.1",
+        "Host": "localhost",
+        "IP": "",
+        "DB_Number": "0"
     },
     "OPCUA_SERVER": {
         "EndPoint": "opc.tcp://0.0.0.0:48411",
         "TagFile": "nodes.json",
         "uri": "http://example.com/opcda2ua"
+    },
+    "WEB_CONFIG": {
+        "Listen": "http://127.0.0.1:18080",
+        "Note": "Use browser to update OPCUA port, restart service after saving"
     },
     "security": {
         "security_num": "0",
@@ -109,62 +118,57 @@ Edit `config/config.json`:
 }
 ```
 
-Edit `config/nodes.json` to define which PLC data-block addresses are exposed as OPC-UA nodes:
+### `config/nodes.json`
+
+`nodes.json` maps OPC-UA node names to OPC-DA ItemIDs.
 
 ```json
 {
-    "Bool":      { "Tag_B0": "0.0", "Tag_B1": "0.1" },
-    "Int":       { "Tag_I0": "126", "Tag_I1": "128" },
-    "Real":      { "Tag_R0": "2126.0" },
-    "Dint":      { "Tag_D0": "200" },
-    "String[256]": { "Tag_S0": "6126" }
+    "Bool": { "Line_Run": "Random.Boolean" },
+    "Int": { "Batch_Count": "Random.Int2" },
+    "Real": { "Temperature": "Random.Real8" },
+    "Dint": { "Total_Output": "Random.Int4" },
+    "String[256]": { "Operator": "Bucket Brigade.String" }
 }
 ```
 
 ---
 
-## Security (TLS)
-
-Generate a self-signed certificate:
-
-```bash
-openssl req -x509 -newkey rsa:2048 \
-    -keyout security/kz_private_key.pem \
-    -out security/kz_cert.pem \
-    -days 365 -nodes -config ssl.conf
-openssl x509 -outform der \
-    -in security/kz_cert.pem \
-    -out security/kz_cert.der
-```
-
-Set `"security_num": "1"` in `config.json` to enable `Basic256Sha256_SignAndEncrypt`.
-
----
-
 ## Run
 
-```bash
-./opcda2ua [config_dir]
+```powershell
+.\build\Debug\opcda2ua.exe .\config
 ```
 
-`config_dir` defaults to `./config`.
-
-Press **Ctrl-C** to stop gracefully.
+`config_dir` defaults to `./config` if omitted.
 
 ---
 
-## Tests
+## Web Port Configuration
 
-```bash
-# CMake
-cd build && ctest --output-on-failure
+After service starts, open:
 
-# GNU Make
-make test
+```text
+http://127.0.0.1:18080
 ```
+
+You can change OPC-UA port there. The page writes to `config/config.json` (`OPCUA_SERVER.EndPoint`).
+
+Restart service after saving to apply the new endpoint.
+
+---
+
+## Behavior Summary
+
+- OPC-DA -> OPC-UA:
+    Program reads configured OPC-DA ItemIDs and updates OPC-UA nodes.
+- OPC-UA write -> OPC-DA:
+    When an OPC-UA client writes a node value, middleware writes through to the mapped OPC-DA item.
+- Internal update guard:
+    DA->UA update path suppresses write-back callback to avoid feedback loops.
 
 ---
 
 ## API Reference
 
-See [`docs/API.md`](docs/API.md) for the full module API.
+See [docs/API.md](docs/API.md).

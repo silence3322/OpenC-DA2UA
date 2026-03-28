@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_types.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_types_definition.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_types_encoding_binary.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\types_generated.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\transport_generated.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\statuscodes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_types_lex.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_encryptedsecret.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_securechannel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_securechannel_crypto.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_session.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_nodes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_ns0.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_ns0_diagnostics.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_ns0_gds.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_config.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_binary.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_auditing.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_async.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_subscription.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_subscription_datachange.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_subscription_event.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_subscription_alarms_conditions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_view.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_method.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_session.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_attribute.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_discovery.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_subscription.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_monitoreditem.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_securechannel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_nodemanagement.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_client.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_client_connect.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_client_discovery.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_client_highlevel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_client_subscriptions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_client_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\libc_time.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\pcg_basic.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\base64.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\dtoa.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\musl_inet_pton.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\mp_printf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\utf8.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\itoa.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ziptree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\parse_num.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\namespace0_generated.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_eventfilter_parser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_eventfilter_lex.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_eventfilter_grammar.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\cj5.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_types_encoding_json.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_networkmessage_json.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_networkmessage_binary.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_connection.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_dataset.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_writer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_writergroup.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_reader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_readergroup.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_manager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_ns0.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_ns0_sks.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_keystorage.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_securitygroup.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_config.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\yxml.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_types_encoding_xml.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_discovery.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_log_stdout.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_accesscontrol_default.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_nodestore_ziptree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_config_default.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_certificategroup_none.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_securitypolicy_none.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\clock_posix.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\timer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\eventloop_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\eventloop_posix.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\eventloop_posix_tcp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\eventloop_posix_udp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\eventloop_posix_eth.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\eventloop_posix_interrupt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_config_json.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_history_data_backend_memory.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_history_data_gathering_default.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_history_database_default.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{2FDB03EB-4A5B-33E3-ABFB-4B3D084DFCE7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -38,6 +38,10 @@ int opcda_client_connect(OpcDAClient *client, const char *ip);
 int opcda_client_read(OpcDAClient *client, int db_number,
                       const NodeConfig *ncfg, TagValueSet *tvs);
 
+/* Write a single tag value to OPC-DA source by node index in ncfg. */
+int opcda_client_write(OpcDAClient *client, int tag_index,
+                       const NodeConfig *ncfg, const TagValue *tv);
+
 /* Disconnect from the PLC */
 void opcda_client_disconnect(OpcDAClient *client);
 
@@ -46,5 +50,9 @@ void opcda_client_destroy(OpcDAClient *client);
 
 /* Return non-zero if currently connected */
 int opcda_client_is_connected(const OpcDAClient *client);
+
+/* Last connection/runtime error captured by OPCDA client. */
+unsigned long opcda_client_last_error_code(const OpcDAClient *client);
+const char *opcda_client_last_error_text(const OpcDAClient *client);
 
 #endif /* OPCDA_CLIENT_H */

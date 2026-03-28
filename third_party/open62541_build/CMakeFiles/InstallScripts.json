@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/work/\u4e2d\u50a8\u7cae/DA2UA/OpenC-DA2UA/third_party/open62541_build/cmake_install.cmake",
+		"C:/work/\u4e2d\u50a8\u7cae/DA2UA/OpenC-DA2UA/third_party/open62541_build/doc/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/work/中储粮/DA2UA/OpenC-DA2UA
+# Build directory: C:/work/中储粮/DA2UA/OpenC-DA2UA/build-win32
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(config_test "C:/work/中储粮/DA2UA/OpenC-DA2UA/build-win32/Debug/test_config.exe")
+  set_tests_properties(config_test PROPERTIES  _BACKTRACE_TRIPLES "C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;143;add_test;C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(config_test "C:/work/中储粮/DA2UA/OpenC-DA2UA/build-win32/Release/test_config.exe")
+  set_tests_properties(config_test PROPERTIES  _BACKTRACE_TRIPLES "C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;143;add_test;C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(config_test "C:/work/中储粮/DA2UA/OpenC-DA2UA/build-win32/MinSizeRel/test_config.exe")
+  set_tests_properties(config_test PROPERTIES  _BACKTRACE_TRIPLES "C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;143;add_test;C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(config_test "C:/work/中储粮/DA2UA/OpenC-DA2UA/build-win32/RelWithDebInfo/test_config.exe")
+  set_tests_properties(config_test PROPERTIES  _BACKTRACE_TRIPLES "C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;143;add_test;C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;0;")
+else()
+  add_test(config_test NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(logger_test "C:/work/中储粮/DA2UA/OpenC-DA2UA/build-win32/Debug/test_logger.exe")
+  set_tests_properties(logger_test PROPERTIES  _BACKTRACE_TRIPLES "C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;150;add_test;C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(logger_test "C:/work/中储粮/DA2UA/OpenC-DA2UA/build-win32/Release/test_logger.exe")
+  set_tests_properties(logger_test PROPERTIES  _BACKTRACE_TRIPLES "C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;150;add_test;C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(logger_test "C:/work/中储粮/DA2UA/OpenC-DA2UA/build-win32/MinSizeRel/test_logger.exe")
+  set_tests_properties(logger_test PROPERTIES  _BACKTRACE_TRIPLES "C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;150;add_test;C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(logger_test "C:/work/中储粮/DA2UA/OpenC-DA2UA/build-win32/RelWithDebInfo/test_logger.exe")
+  set_tests_properties(logger_test PROPERTIES  _BACKTRACE_TRIPLES "C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;150;add_test;C:/work/中储粮/DA2UA/OpenC-DA2UA/CMakeLists.txt;0;")
+else()
+  add_test(logger_test NOT_AVAILABLE)
+endif()

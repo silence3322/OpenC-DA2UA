@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_definition.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_encoding_binary.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated\open62541\types_generated.c">
+      <Filter>..\open62541_build\src_generated\open62541</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated\open62541\transport_generated.c">
+      <Filter>..\open62541_build\src_generated\open62541</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated\open62541\statuscodes.c">
+      <Filter>..\open62541_build\src_generated\open62541</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_util.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_types_lex.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_encryptedsecret.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_securechannel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_securechannel_crypto.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_session.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_nodes.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_ns0.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_ns0_diagnostics.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_ns0_gds.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_config.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_binary.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_utils.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_auditing.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_async.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_subscription.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_subscription_datachange.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_subscription_event.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_subscription_alarms_conditions.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_view.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_method.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_session.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_attribute.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_discovery.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_subscription.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_monitoreditem.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_securechannel.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_nodemanagement.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client_connect.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client_discovery.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client_highlevel.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client_subscriptions.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client_util.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\libc_time.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\pcg_basic.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\base64.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\dtoa.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\musl_inet_pton.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\mp_printf.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\utf8.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\itoa.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\ziptree.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\parse_num.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated\open62541\namespace0_generated.c">
+      <Filter>..\open62541_build\src_generated\open62541</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_eventfilter_parser.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_eventfilter_lex.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_eventfilter_grammar.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\cj5.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_encoding_json.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_networkmessage_json.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_networkmessage_binary.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_connection.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_dataset.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_writer.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_writergroup.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_reader.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_readergroup.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_manager.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_ns0.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_ns0_sks.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_keystorage.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_securitygroup.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_config.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\yxml.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_encoding_xml.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_discovery.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\open62541_queue.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\pcg_basic.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\libc_time.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\base64.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\dtoa.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\musl_inet_pton.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\mp_printf.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\utf8.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\itoa.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\ziptree.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\parse_num.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_encoding_binary.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated\open62541\transport_generated.h">
+      <Filter>..\open62541_build\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_securechannel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_util_internal.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_session.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_subscription.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_async.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_internal.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client_internal.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated\open62541\namespace0_generated.h">
+      <Filter>..\open62541_build\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_eventfilter_parser.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\cj5.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_encoding_json.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_networkmessage.h">
+      <Filter>src\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_internal.h">
+      <Filter>src\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_keystorage.h">
+      <Filter>src\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\yxml.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_encoding_xml.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_discovery.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated\open62541\config.h">
+      <Filter>..\open62541_build\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated\open62541\statuscodes.h">
+      <Filter>..\open62541_build\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated\open62541\nodeids.h">
+      <Filter>..\open62541_build\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\common.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\types.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated\open62541\types_generated.h">
+      <Filter>..\open62541_build\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\log.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\util.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\accesscontrol.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\certificategroup.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\securitypolicy.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\eventloop.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\historydatabase.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\servercomponent.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_highlevel_async.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_subscriptions.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_highlevel.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\server_pubsub.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\server.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\pubsub.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\nodestore.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{26E1F4DC-09F6-3BC9-800D-73822C0FE0A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\open62541_build">
+      <UniqueIdentifier>{7072ADCC-96F5-3A5B-8087-6D41DD34D1AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\open62541_build\src_generated">
+      <UniqueIdentifier>{5A700063-1A14-3279-A5DA-6C95A39660BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\open62541_build\src_generated\open62541">
+      <UniqueIdentifier>{D07CD180-E9F9-3EF3-B051-9A0EA91004E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C6FA0EBB-ABFE-3644-9FB5-F3036F628DB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps">
+      <UniqueIdentifier>{269A30CE-0369-37B4-B96A-8FD5E4A60090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{9FC4EE91-6B52-3C3A-800E-8B51FC7A08D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\open62541">
+      <UniqueIdentifier>{C6ECF3FA-97E9-3680-B13B-F640CC3255B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\open62541\plugin">
+      <UniqueIdentifier>{90DF74CB-03DB-36BA-819C-45BA7540B889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{7ABD7118-91F4-3916-ACE3-AA1A26FB88F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client">
+      <UniqueIdentifier>{5B127B99-5D79-3A1A-8C4F-797BD6C49E5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pubsub">
+      <UniqueIdentifier>{CC98FF55-F503-3DE7-9EC2-EA0B4D72160B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server">
+      <UniqueIdentifier>{10E4CD43-2FDC-3CB4-B230-F1A5E6969A2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{BB8CE150-E51C-3571-A002-649665AC15F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

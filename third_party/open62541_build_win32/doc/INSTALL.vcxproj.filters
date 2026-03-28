@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\51c530d149bf0dd5986cf7e4bb1a7faf\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7D04121D-ABFD-3369-8549-E9458E710F9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

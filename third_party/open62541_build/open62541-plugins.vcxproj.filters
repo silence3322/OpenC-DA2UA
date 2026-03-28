@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\ua_log_stdout.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\ua_accesscontrol_default.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\ua_nodestore_ziptree.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\ua_config_default.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\crypto\ua_certificategroup_none.c">
+      <Filter>plugins\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\crypto\ua_securitypolicy_none.c">
+      <Filter>plugins\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\arch\posix\clock_posix.c">
+      <Filter>arch\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\arch\common\timer.c">
+      <Filter>arch\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\arch\common\eventloop_common.c">
+      <Filter>arch\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\arch\posix\eventloop_posix.c">
+      <Filter>arch\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\arch\posix\eventloop_posix_tcp.c">
+      <Filter>arch\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\arch\posix\eventloop_posix_udp.c">
+      <Filter>arch\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\arch\posix\eventloop_posix_eth.c">
+      <Filter>arch\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\arch\posix\eventloop_posix_interrupt.c">
+      <Filter>arch\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\ua_config_json.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\historydata\ua_history_data_backend_memory.c">
+      <Filter>plugins\historydata</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\historydata\ua_history_data_gathering_default.c">
+      <Filter>plugins\historydata</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\historydata\ua_history_database_default.c">
+      <Filter>plugins\historydata</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\arch\common\timer.h">
+      <Filter>arch\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\arch\common\eventloop_common.h">
+      <Filter>arch\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\arch\posix\eventloop_posix.h">
+      <Filter>arch\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\plugin\accesscontrol_default.h">
+      <Filter>plugins\include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\plugin\certificategroup_default.h">
+      <Filter>plugins\include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\plugin\log_stdout.h">
+      <Filter>plugins\include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\plugin\nodestore_default.h">
+      <Filter>plugins\include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\server_config_default.h">
+      <Filter>plugins\include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\client_config_default.h">
+      <Filter>plugins\include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\plugin\securitypolicy_default.h">
+      <Filter>plugins\include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\plugin\create_certificate.h">
+      <Filter>plugins\include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\server_config_file_based.h">
+      <Filter>plugins\include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\plugin\historydata\history_data_backend.h">
+      <Filter>plugins\include\open62541\plugin\historydata</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\plugin\historydata\history_data_gathering.h">
+      <Filter>plugins\include\open62541\plugin\historydata</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\plugin\historydata\history_database_default.h">
+      <Filter>plugins\include\open62541\plugin\historydata</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\plugin\historydata\history_data_gathering_default.h">
+      <Filter>plugins\include\open62541\plugin\historydata</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include\open62541\plugin\historydata\history_data_backend_memory.h">
+      <Filter>plugins\include\open62541\plugin\historydata</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="arch">
+      <UniqueIdentifier>{9EFA2D65-8D1C-38D5-BAB4-6EB35966B5E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch\common">
+      <UniqueIdentifier>{D8863D64-6A4B-30F9-8428-6531E59412B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch\posix">
+      <UniqueIdentifier>{19E04054-42DD-39D2-A21B-07CDCFAC53E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins">
+      <UniqueIdentifier>{36D23AEF-B298-30B9-861A-5E917F34F888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\crypto">
+      <UniqueIdentifier>{A0EAE912-B403-3FBB-9A59-49CF87EA8F1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\historydata">
+      <UniqueIdentifier>{70588A9E-0C5C-3BEF-BB49-222D070AE8BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\include">
+      <UniqueIdentifier>{79724331-468A-306C-8D9C-913DACB9AB11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\include\open62541">
+      <UniqueIdentifier>{2394CA87-2FD2-3FCA-8BE8-33D70E0631D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\include\open62541\plugin">
+      <UniqueIdentifier>{562FE466-BC24-3E91-AA45-CF862BED8320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\include\open62541\plugin\historydata">
+      <UniqueIdentifier>{51FAC716-A30A-34A9-B0E1-079E5DEB76D5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

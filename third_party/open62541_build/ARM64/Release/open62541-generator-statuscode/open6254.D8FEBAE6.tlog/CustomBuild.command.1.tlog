@@ -1,0 +1,38 @@
+^C:\WORK\中储粮\DA2UA\OPENC-DA2UA\THIRD_PARTY\OPEN62541_BUILD\CMAKEFILES\82336780E325767FA4EE1BBA10DFAFB3\NODEIDS.H.RULE
+setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/generate_nodeid_header.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/schema/NodeIds.csv C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/src_generated/open62541/nodeids NS0
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\WORK\中储粮\DA2UA\OPENC-DA2UA\THIRD_PARTY\OPEN62541_BUILD\CMAKEFILES\82336780E325767FA4EE1BBA10DFAFB3\STATUSCODES.H.RULE
+setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/generate_statuscode_descriptions.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/schema/StatusCode.csv C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/src_generated/open62541/statuscodes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\WORK\中储粮\DA2UA\OPENC-DA2UA\THIRD_PARTY\OPEN62541_BUILD\CMAKEFILES\28896637855F145AAF9124BD6E1B9A19\OPEN62541-GENERATOR-STATUSCODE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\WORK\中储粮\DA2UA\OPENC-DA2UA\THIRD_PARTY\OPEN62541_SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

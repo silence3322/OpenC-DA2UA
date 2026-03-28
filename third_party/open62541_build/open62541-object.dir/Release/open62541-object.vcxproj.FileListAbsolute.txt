@@ -1,0 +1,1 @@
+C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\Release\open62541-object.lib

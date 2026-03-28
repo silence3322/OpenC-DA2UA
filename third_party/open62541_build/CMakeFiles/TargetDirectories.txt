@@ -1,0 +1,16 @@
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/open62541-generator-types.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/open62541-generator-transport.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/open62541-generator-ids-ns0.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/open62541-generator-statuscode.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/open62541-generator-namespace.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/open62541-code-generation.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/open62541-object.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/open62541-plugins.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/open62541.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/INSTALL.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/ALL_BUILD.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/ZERO_CHECK.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/doc/CMakeFiles/doc_latex.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/doc/CMakeFiles/doc_pdf.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/doc/CMakeFiles/doc.dir
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/doc/CMakeFiles/INSTALL.dir

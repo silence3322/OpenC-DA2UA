@@ -1,0 +1,11 @@
+libdir=C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_install_win32/lib
+sharedlibdir=${libdir}
+includedir=C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_install_win32/include
+
+Name: open62541
+Description: open62541 is an open source C (C99) implementation of OPC UA
+Version: 1.5.3
+Requires.private: 
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lopen62541 -lws2_32 -liphlpapi 
+Libs.private: 

@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindLATEX.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/doc/CMakeLists.txt
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/doc/conf.py
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/cmake/FindSphinx.cmake

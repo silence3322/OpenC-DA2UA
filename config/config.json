@@ -1,16 +1,23 @@
-{
-    "OPCDA_CLIENT": {
-        "IP": "192.168.20.219",
-        "DB_Number": "2"
-    },
-    "OPCUA_SERVER": {
-        "EndPoint": "opc.tcp://0.0.0.0:48411",
-        "TagFile": "nodes.json",
-        "uri": "http://example.com/opcda2ua"
-    },
-    "security": {
-        "security_num": "0",
-        "certificate": "kz_cert.der",
-        "private-key": "kz_private_key.pem"
-    }
+qi{
+	"OPCDA_CLIENT":	{
+		"Mode":	"opcda_com",
+		"IP":	"",
+		"ServerProgID":	"Kepware.KEPServerEX.V6",
+		"Host":	"localhost",
+		"DB_Number":	"0"
+	},
+	"OPCUA_SERVER":	{
+		"EndPoint":	"opc.tcp://0.0.0.0:48411",
+		"TagFile":	"nodes.json",
+		"uri":	"http://example.com/opcda2ua"
+	},
+	"WEB_CONFIG":	{
+		"Listen":	"http://127.0.0.1:18080",
+		"Note":	"Use browser to update OPCUA port, restart service after saving"
+	},
+	"security":	{
+		"security_num":	"0",
+		"certificate":	"kz_cert.der",
+		"private-key":	"kz_private_key.pem"
+	}
 }

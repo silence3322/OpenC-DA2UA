@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>ARM64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6B3BF238-83C9-32F2-8AA4-A368F6A3C354}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>open62541-object</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">open62541-object.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">open62541-object.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">open62541-object</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">open62541-object.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">open62541-object.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">open62541-object</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">open62541-object.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">open62541-object.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">open62541-object</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">open62541-object.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">open62541-object.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">open62541-object</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32 --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Diab-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Renesas-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\4.2.3\CMakeCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\4.2.3\CMakeRCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\4.2.3\CMakeSystem.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\config.h.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\AssignSourceGroup.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\SetGitBasedVersion.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Config.cmake.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Macros.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32 --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Diab-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Renesas-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\4.2.3\CMakeCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\4.2.3\CMakeRCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\4.2.3\CMakeSystem.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\config.h.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\AssignSourceGroup.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\SetGitBasedVersion.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Config.cmake.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Macros.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32 --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Diab-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Renesas-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\4.2.3\CMakeCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\4.2.3\CMakeRCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\4.2.3\CMakeSystem.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\config.h.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\AssignSourceGroup.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\SetGitBasedVersion.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Config.cmake.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Macros.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32 --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Diab-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Renesas-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\4.2.3\CMakeCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\4.2.3\CMakeRCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\4.2.3\CMakeSystem.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\config.h.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\AssignSourceGroup.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\SetGitBasedVersion.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Config.cmake.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Macros.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_definition.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_encoding_binary.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\types_generated.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\transport_generated.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\statuscodes.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_util.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_types_lex.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_encryptedsecret.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_securechannel.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_securechannel_crypto.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_session.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_nodes.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_ns0.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_ns0_diagnostics.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_ns0_gds.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_config.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_binary.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_utils.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_auditing.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_async.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_subscription.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_subscription_datachange.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_subscription_event.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_subscription_alarms_conditions.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_view.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_method.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_session.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_attribute.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_discovery.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_subscription.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_monitoreditem.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_securechannel.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services_nodemanagement.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client_connect.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client_discovery.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client_highlevel.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client_subscriptions.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client_util.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\libc_time.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\pcg_basic.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\base64.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\dtoa.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\musl_inet_pton.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\mp_printf.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\utf8.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\itoa.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\ziptree.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\parse_num.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\namespace0_generated.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_eventfilter_parser.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_eventfilter_lex.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_eventfilter_grammar.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\cj5.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_encoding_json.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_networkmessage_json.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_networkmessage_binary.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_connection.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_dataset.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_writer.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_writergroup.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_reader.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_readergroup.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_manager.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_ns0.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_ns0_sks.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_keystorage.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_securitygroup.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_config.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\yxml.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_encoding_xml.c" />
+    <ClCompile Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_discovery.c" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\open62541_queue.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\pcg_basic.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\libc_time.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\base64.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\dtoa.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\musl_inet_pton.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\mp_printf.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\utf8.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\itoa.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\ziptree.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\parse_num.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_encoding_binary.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\transport_generated.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_securechannel.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_util_internal.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_session.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_subscription.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_services.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_async.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_server_internal.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\client\ua_client_internal.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\namespace0_generated.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\util\ua_eventfilter_parser.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\cj5.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_encoding_json.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_networkmessage.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_internal.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\pubsub\ua_pubsub_keystorage.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\deps\yxml.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\ua_types_encoding_xml.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\src\server\ua_discovery.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\config.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\statuscodes.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\nodeids.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\common.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\types.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\types_generated.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\log.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\util.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\accesscontrol.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\certificategroup.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\securitypolicy.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\eventloop.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\historydatabase.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\servercomponent.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_highlevel_async.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_subscriptions.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_highlevel.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\server_pubsub.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\server.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\pubsub.h" />
+    <ClInclude Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\nodestore.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\ZERO_CHECK.vcxproj">
+      <Project>{9CD380D3-2236-30DC-B48B-577588A010BC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\open62541-code-generation.vcxproj">
+      <Project>{85439145-3E2F-38C1-A40A-EA987D54DEB6}</Project>
+      <Name>open62541-code-generation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

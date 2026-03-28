@@ -1,0 +1,48 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Linker/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Linker/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/4.2.3/CMakeCCompiler.cmake
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/4.2.3/CMakeRCCompiler.cmake
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/4.2.3/CMakeSystem.cmake
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/CMakeLists.txt
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/config.h.in
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/cmake/AssignSourceGroup.cmake
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/cmake/SetGitBasedVersion.cmake
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/cmake/open62541Config.cmake.in
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/cmake/open62541Macros.cmake
+C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/open62541.pc.in

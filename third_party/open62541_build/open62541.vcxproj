@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>ARM64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|ARM64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|ARM64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E76D519-3DE8-33AA-99F3-0D8ADA9B64B7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsSDKDesktopARM64Support>true</WindowsSDKDesktopARM64Support>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>ARM64</Platform>
+    <ProjectName>open62541</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">open62541.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">open62541</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">open62541.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">open62541</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'">open62541.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'">open62541</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'">open62541.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'">open62541</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR="Debug";open62541_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR=\"Debug\";open62541_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/bin/Debug/open62541.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/bin/Debug/open62541.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <Version>1.5</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR="Release";open62541_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR=\"Release\";open62541_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/bin/Release/open62541.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/bin/Release/open62541.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <Version>1.5</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR="MinSizeRel";open62541_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR=\"MinSizeRel\";open62541_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/bin/MinSizeRel/open62541.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/bin/MinSizeRel/open62541.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <Version>1.5</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR="RelWithDebInfo";open62541_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR=\"RelWithDebInfo\";open62541_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\plugins\include;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/bin/RelWithDebInfo/open62541.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/bin/RelWithDebInfo/open62541.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <Version>1.5</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Building Custom Rule C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\4.2.3\CMakeCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\4.2.3\CMakeRCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\4.2.3\CMakeSystem.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\config.h.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\AssignSourceGroup.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\SetGitBasedVersion.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Config.cmake.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Macros.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">Building Custom Rule C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\4.2.3\CMakeCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\4.2.3\CMakeRCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\4.2.3\CMakeSystem.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\config.h.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\AssignSourceGroup.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\SetGitBasedVersion.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Config.cmake.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Macros.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'">Building Custom Rule C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\4.2.3\CMakeCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\4.2.3\CMakeRCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\4.2.3\CMakeSystem.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\config.h.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\AssignSourceGroup.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\SetGitBasedVersion.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Config.cmake.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Macros.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'">Building Custom Rule C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\4.2.3\CMakeCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\4.2.3\CMakeRCCompiler.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\4.2.3\CMakeSystem.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\config.h.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\AssignSourceGroup.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\SetGitBasedVersion.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Config.cmake.in;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\open62541Macros.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_types.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_types_definition.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_types_encoding_binary.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\types_generated.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\transport_generated.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\statuscodes.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_util.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_types_lex.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_encryptedsecret.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_securechannel.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_securechannel_crypto.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_session.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_nodes.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_ns0.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_ns0_diagnostics.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_ns0_gds.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_config.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_binary.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_utils.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_auditing.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_server_async.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_subscription.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_subscription_datachange.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_subscription_event.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_subscription_alarms_conditions.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_view.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_method.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_session.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_attribute.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_discovery.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_subscription.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_monitoreditem.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_securechannel.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_services_nodemanagement.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_client.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_client_connect.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_client_discovery.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_client_highlevel.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_client_subscriptions.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_client_util.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\libc_time.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\pcg_basic.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\base64.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\dtoa.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\musl_inet_pton.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\mp_printf.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\utf8.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\itoa.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ziptree.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\parse_num.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\namespace0_generated.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_eventfilter_parser.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_eventfilter_lex.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_eventfilter_grammar.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\cj5.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_types_encoding_json.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_networkmessage_json.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_networkmessage_binary.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_connection.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_dataset.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_writer.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_writergroup.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_reader.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_readergroup.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_manager.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_ns0.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_ns0_sks.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_keystorage.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_securitygroup.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_pubsub_config.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\yxml.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_types_encoding_xml.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.dir\$(Configuration)\ua_discovery.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_log_stdout.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_accesscontrol_default.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_nodestore_ziptree.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_config_default.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_certificategroup_none.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_securitypolicy_none.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\clock_posix.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\timer.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\eventloop_common.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\eventloop_posix.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\eventloop_posix_tcp.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\eventloop_posix_udp.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\eventloop_posix_eth.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\eventloop_posix_interrupt.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_config_json.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_history_data_backend_memory.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_history_data_gathering_default.obj" />
+    <Object Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.dir\$(Configuration)\ua_history_database_default.obj" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\ZERO_CHECK.vcxproj">
+      <Project>{7DB66325-44E1-314D-86A3-83537BC8120F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-object.vcxproj">
+      <Project>{487EC6B9-602E-366C-8EF5-CDD7D279104F}</Project>
+      <Name>open62541-object</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\open62541-plugins.vcxproj">
+      <Project>{6BF2C58D-8EBD-337A-B30B-BF5051E3724C}</Project>
+      <Name>open62541-plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

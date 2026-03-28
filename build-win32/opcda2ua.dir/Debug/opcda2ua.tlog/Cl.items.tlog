@@ -1,0 +1,7 @@
+C:\work\中储粮\DA2UA\OpenC-DA2UA\src\main.c;C:\work\中储粮\DA2UA\OpenC-DA2UA\build-win32\opcda2ua.dir\Debug\main.obj
+C:\work\中储粮\DA2UA\OpenC-DA2UA\src\config.c;C:\work\中储粮\DA2UA\OpenC-DA2UA\build-win32\opcda2ua.dir\Debug\config.obj
+C:\work\中储粮\DA2UA\OpenC-DA2UA\src\logger.c;C:\work\中储粮\DA2UA\OpenC-DA2UA\build-win32\opcda2ua.dir\Debug\logger.obj
+C:\work\中储粮\DA2UA\OpenC-DA2UA\src\opcda_client.c;C:\work\中储粮\DA2UA\OpenC-DA2UA\build-win32\opcda2ua.dir\Debug\opcda_client.obj
+C:\work\中储粮\DA2UA\OpenC-DA2UA\src\opcua_server.c;C:\work\中储粮\DA2UA\OpenC-DA2UA\build-win32\opcda2ua.dir\Debug\opcua_server.obj
+C:\work\中储粮\DA2UA\OpenC-DA2UA\src\web_config.c;C:\work\中储粮\DA2UA\OpenC-DA2UA\build-win32\opcda2ua.dir\Debug\web_config.obj
+C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\cJSON\cJSON.c;C:\work\中储粮\DA2UA\OpenC-DA2UA\build-win32\opcda2ua.dir\Debug\cJSON.obj

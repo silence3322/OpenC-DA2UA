@@ -1,0 +1,1 @@
+C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\open62541-plugins.dir\Debug\open62541-plugins.lib

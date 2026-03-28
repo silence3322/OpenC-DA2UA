@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="ARM64"/>
+	</Configurations>
+	<Project Path="open62541-code-generation.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="eff71612-b819-34fa-b853-0006970364ab">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="open62541-generator-namespace.vcxproj"/>
+		<BuildDependency Project="open62541-generator-statuscode.vcxproj"/>
+		<BuildDependency Project="open62541-generator-transport.vcxproj"/>
+		<BuildDependency Project="open62541-generator-types.vcxproj"/>
+	</Project>
+	<Project Path="open62541-generator-ids-ns0.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e9e0369a-6425-33c4-a715-34b274e1af9e">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Folder Name="/_CmakePredifinedTargets/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="262b373a-7a17-33bf-84ee-e9808a1ec843" DefaultStartup="true">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="open62541.vcxproj"/>
+			<BuildDependency Project="open62541-object.vcxproj"/>
+			<BuildDependency Project="open62541-plugins.vcxproj"/>
+		</Project>
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="36f4f081-1282-3f23-a29d-3e63fc801618">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7db66325-44e1-314d-86a3-83537bc8120f"/>
+	</Folder>
+	<Folder Name="/open62541/"/>
+	<Folder Name="/open62541/doc/">
+		<Project Path="doc/doc.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="137d72d3-1a25-3607-82cc-1f975f1deb6d">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="open62541.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="doc/doc_latex.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="efcef8a2-3077-3db3-8695-5c6367c7bc2d">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="open62541.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="doc/doc_pdf.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="82180013-e1fa-3b10-ad63-5d9f01de464e">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="doc/doc_latex.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+	</Folder>
+	<Folder Name="/open62541/generators/">
+		<Project Path="open62541-generator-namespace.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d47a8b12-4f6c-33a4-9f46-302defa7150b">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="open62541-generator-types.vcxproj"/>
+		</Project>
+		<Project Path="open62541-generator-statuscode.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d8febae6-c86c-3ff4-ad39-f7251431109a">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="open62541-generator-transport.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e930a318-e025-3fac-891a-9cbba379ff4b">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="open62541-generator-types.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="08523d4c-1e55-3137-af36-dd86fae65128">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/open62541/lib/">
+		<Project Path="open62541.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8e76d519-3de8-33aa-99f3-0d8ada9b64b7">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="open62541-object.vcxproj"/>
+			<BuildDependency Project="open62541-plugins.vcxproj"/>
+		</Project>
+		<Project Path="open62541-object.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="487ec6b9-602e-366c-8ef5-cdd7d279104f">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="open62541-code-generation.vcxproj"/>
+		</Project>
+		<Project Path="open62541-plugins.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6bf2c58d-8ebd-337a-b30b-bf5051e3724c">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="open62541-code-generation.vcxproj"/>
+		</Project>
+	</Folder>
+</Solution>

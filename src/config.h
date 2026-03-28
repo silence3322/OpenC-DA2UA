@@ -16,7 +16,10 @@ typedef enum {
 
 /* OPC-DA client configuration */
 typedef struct {
+    char mode[MAX_STR_LEN];
     char ip[MAX_STR_LEN];
+    char server_progid[MAX_STR_LEN];
+    char host[MAX_STR_LEN];
     int  db_number;
 } OpcDAConfig;
 
@@ -53,6 +56,7 @@ typedef enum {
 /* A single node/tag definition */
 typedef struct {
     char     name[MAX_STR_LEN];   /* tag name shown in OPC-UA */
+    char     source[MAX_STR_LEN]; /* source address/item id from nodes.json */
     TagType  type;
     int      byte_offset;
     int      bit_offset;          /* only for Bool */
@@ -67,6 +71,12 @@ typedef struct {
 
 /* Read the application configuration from config_path */
 int config_load(const char *config_path, AppConfig *cfg);
+
+/* Persist OPC-UA port into OPCUA_SERVER.EndPoint in config.json. */
+int config_set_opcua_port(const char *config_path, int port);
+
+/* Persist OPCDA gateway mode and selected ServerProgID in config.json. */
+int config_set_opcda_gateway(const char *config_path, int enabled, const char *server_progid);
 
 /* Read the node definitions from nodes_path */
 int nodes_load(const char *nodes_path, NodeConfig *ncfg);

@@ -33,6 +33,16 @@ static char *read_file(const char *path)
     return buf;
 }
 
+static int write_file(const char *path, const char *text)
+{
+    FILE *fp = fopen(path, "wb");
+    if (!fp) return -1;
+    size_t n = strlen(text);
+    size_t w = fwrite(text, 1, n, fp);
+    fclose(fp);
+    return (w == n) ? 0 : -1;
+}
+
 static void safe_strncpy(char *dst, const char *src, size_t n)
 {
     strncpy(dst, src, n - 1);
@@ -64,15 +74,29 @@ int config_load(const char *config_path, AppConfig *cfg)
     /* OPCDA_CLIENT */
     cJSON *da = cJSON_GetObjectItemCaseSensitive(root, "OPCDA_CLIENT");
     if (da) {
+        cJSON *mode = cJSON_GetObjectItemCaseSensitive(da, "Mode");
         cJSON *ip = cJSON_GetObjectItemCaseSensitive(da, "IP");
+        cJSON *progid = cJSON_GetObjectItemCaseSensitive(da, "ServerProgID");
+        cJSON *host = cJSON_GetObjectItemCaseSensitive(da, "Host");
+        if (cJSON_IsString(mode))
+            safe_strncpy(cfg->opcda.mode, mode->valuestring, sizeof(cfg->opcda.mode));
+        else
+            safe_strncpy(cfg->opcda.mode, "snap7", sizeof(cfg->opcda.mode));
         if (cJSON_IsString(ip))
             safe_strncpy(cfg->opcda.ip, ip->valuestring, sizeof(cfg->opcda.ip));
+        if (cJSON_IsString(progid))
+            safe_strncpy(cfg->opcda.server_progid, progid->valuestring,
+                         sizeof(cfg->opcda.server_progid));
+        if (cJSON_IsString(host))
+            safe_strncpy(cfg->opcda.host, host->valuestring, sizeof(cfg->opcda.host));
 
         cJSON *db = cJSON_GetObjectItemCaseSensitive(da, "DB_Number");
         if (cJSON_IsString(db))
             cfg->opcda.db_number = atoi(db->valuestring);
         else if (cJSON_IsNumber(db))
             cfg->opcda.db_number = db->valueint;
+    } else {
+        safe_strncpy(cfg->opcda.mode, "snap7", sizeof(cfg->opcda.mode));
     }
 
     /* OPCUA_SERVER */
@@ -104,6 +128,85 @@ int config_load(const char *config_path, AppConfig *cfg)
 
     cJSON_Delete(root);
     return 0;
+}
+
+int config_set_opcua_port(const char *config_path, int port)
+{
+    if (!config_path || port <= 0 || port > 65535) return -1;
+
+    char *text = read_file(config_path);
+    if (!text) return -1;
+
+    cJSON *root = cJSON_Parse(text);
+    free(text);
+    if (!root) return -1;
+
+    cJSON *ua = cJSON_GetObjectItemCaseSensitive(root, "OPCUA_SERVER");
+    if (!ua || !cJSON_IsObject(ua)) {
+        cJSON_Delete(root);
+        return -1;
+    }
+
+    char endpoint[MAX_STR_LEN];
+    snprintf(endpoint, sizeof(endpoint), "opc.tcp://0.0.0.0:%d", port);
+
+    cJSON *ep = cJSON_GetObjectItemCaseSensitive(ua, "EndPoint");
+    if (ep && cJSON_IsString(ep)) {
+        cJSON_SetValuestring(ep, endpoint);
+    } else {
+        cJSON_ReplaceItemInObjectCaseSensitive(ua, "EndPoint", cJSON_CreateString(endpoint));
+    }
+
+    char *printed = cJSON_Print(root);
+    cJSON_Delete(root);
+    if (!printed) return -1;
+
+    int rc = write_file(config_path, printed);
+    cJSON_free(printed);
+    return rc;
+}
+
+int config_set_opcda_gateway(const char *config_path, int enabled, const char *server_progid)
+{
+    if (!config_path) return -1;
+
+    char *text = read_file(config_path);
+    if (!text) return -1;
+
+    cJSON *root = cJSON_Parse(text);
+    free(text);
+    if (!root) return -1;
+
+    cJSON *da = cJSON_GetObjectItemCaseSensitive(root, "OPCDA_CLIENT");
+    if (!da || !cJSON_IsObject(da)) {
+        cJSON_Delete(root);
+        return -1;
+    }
+
+    const char *mode_str = enabled ? "opcda_com" : "disabled";
+    cJSON *mode = cJSON_GetObjectItemCaseSensitive(da, "Mode");
+    if (mode && cJSON_IsString(mode)) {
+        cJSON_SetValuestring(mode, mode_str);
+    } else {
+        cJSON_ReplaceItemInObjectCaseSensitive(da, "Mode", cJSON_CreateString(mode_str));
+    }
+
+    if (server_progid && server_progid[0] != '\0') {
+        cJSON *progid = cJSON_GetObjectItemCaseSensitive(da, "ServerProgID");
+        if (progid && cJSON_IsString(progid)) {
+            cJSON_SetValuestring(progid, server_progid);
+        } else {
+            cJSON_ReplaceItemInObjectCaseSensitive(da, "ServerProgID", cJSON_CreateString(server_progid));
+        }
+    }
+
+    char *printed = cJSON_Print(root);
+    cJSON_Delete(root);
+    if (!printed) return -1;
+
+    int rc = write_file(config_path, printed);
+    cJSON_free(printed);
+    return rc;
 }
 
 int nodes_load(const char *nodes_path, NodeConfig *ncfg)
@@ -182,6 +285,7 @@ int nodes_load(const char *nodes_path, NodeConfig *ncfg)
             if (cJSON_IsString(tag)) val_str = tag->valuestring;
 
             if (val_str) {
+                safe_strncpy(nd->source, val_str, sizeof(nd->source));
                 char buf[64];
                 safe_strncpy(buf, val_str, sizeof(buf));
                 char *dot = strchr(buf, '.');

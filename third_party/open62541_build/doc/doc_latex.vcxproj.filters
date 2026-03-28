@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\client.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\common.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\plugin_accesscontrol.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\plugin_certificategroup.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\plugin_eventloop.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\plugin_log.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\plugin_nodestore.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\plugin_securitypolicy.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\plugin_servercomponent.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\pubsub.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\server.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\statuscodes.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_client_firststeps.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_datatypes.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_pubsub_publish.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_pubsub_subscribe.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_server_alarms_conditions.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_server_datasource.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_server_events.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_server_firststeps.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_server_method.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_server_monitoreditems.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_server_object.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_server_variable.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\tutorial_server_variabletype.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\types.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\types_generated.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\609e7c73538d48ab305da5aca296c651\util.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\CMakeFiles\2887568d1faa4335f13f7d805dd4ade9\doc_latex.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\doc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build\doc\CMakeFiles\doc_latex" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C6FA0EBB-ABFE-3644-9FB5-F3036F628DB5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

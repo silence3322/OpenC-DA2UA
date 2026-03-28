@@ -1,31 +1,45 @@
 {
-    "Bool": {
-        "Test_Bool_0": "0.0",
-        "Test_Bool_1": "0.1",
-        "Test_Bool_2": "0.2",
-        "Test_Bool_3": "0.3",
-        "Test_Bool_4": "0.4"
-    },
-    "Int": {
-        "Test_Int_0": "126",
-        "Test_Int_1": "128",
-        "Test_Int_2": "130",
-        "Test_Int_3": "132",
-        "Test_Int_4": "134"
-    },
-    "Real": {
-        "Test_Real_0": "2126.0",
-        "Test_Real_1": "2130.0",
-        "Test_Real_2": "2134.0",
-        "Test_Real_3": "2138.0",
-        "Test_Real_4": "2142.0"
-    },
-    "Dint": {
-        "Test_Dint_0": "200",
-        "Test_Dint_1": "204"
-    },
-    "String[256]": {
-        "Test_Str_0": "6126",
-        "Test_Str_1": "6140"
-    }
+  "String[256]": {
+    "模拟器示例.函数.Ramp1": "模拟器示例.函数.Ramp1",
+    "模拟器示例.函数.Ramp2": "模拟器示例.函数.Ramp2",
+    "模拟器示例.函数.Ramp3": "模拟器示例.函数.Ramp3",
+    "模拟器示例.函数.Ramp4": "模拟器示例.函数.Ramp4",
+    "模拟器示例.函数.Random1": "模拟器示例.函数.Random1",
+    "模拟器示例.函数.Random2": "模拟器示例.函数.Random2",
+    "模拟器示例.函数.Random3": "模拟器示例.函数.Random3",
+    "模拟器示例.函数.Random4": "模拟器示例.函数.Random4",
+    "模拟器示例.函数.Sine1": "模拟器示例.函数.Sine1",
+    "模拟器示例.函数.Sine2": "模拟器示例.函数.Sine2",
+    "模拟器示例.函数.Sine3": "模拟器示例.函数.Sine3",
+    "模拟器示例.函数.Sine4": "模拟器示例.函数.Sine4",
+    "模拟器示例.函数.User1": "模拟器示例.函数.User1",
+    "模拟器示例.函数.User2": "模拟器示例.函数.User2",
+    "模拟器示例.函数.User3": "模拟器示例.函数.User3",
+    "模拟器示例.函数.User4": "模拟器示例.函数.User4",
+    "模拟器示例.函数._System._DemandPoll": "模拟器示例.函数._System._DemandPoll",
+    "模拟器示例.函数._System._Description": "模拟器示例.函数._System._Description",
+    "模拟器示例.函数._System._DeviceId": "模拟器示例.函数._System._DeviceId",
+    "模拟器示例.函数._System._Enabled": "模拟器示例.函数._System._Enabled",
+    "模拟器示例.函数._System._Error": "模拟器示例.函数._System._Error",
+    "模拟器示例.函数._System._NoError": "模拟器示例.函数._System._NoError",
+    "模拟器示例.函数._System._ScanMode": "模拟器示例.函数._System._ScanMode",
+    "模拟器示例.函数._System._ScanRateMs": "模拟器示例.函数._System._ScanRateMs",
+    "模拟器示例.函数._System._SecondsInError": "模拟器示例.函数._System._SecondsInError",
+    "模拟器示例.函数._System._Simulated": "模拟器示例.函数._System._Simulated",
+    "通道 1.设备 1._System._DemandPoll": "通道 1.设备 1._System._DemandPoll",
+    "通道 1.设备 1._System._Description": "通道 1.设备 1._System._Description",
+    "通道 1.设备 1._System._DeviceId": "通道 1.设备 1._System._DeviceId",
+    "通道 1.设备 1._System._Enabled": "通道 1.设备 1._System._Enabled",
+    "通道 1.设备 1._System._Error": "通道 1.设备 1._System._Error",
+    "通道 1.设备 1._System._NoError": "通道 1.设备 1._System._NoError",
+    "通道 1.设备 1._System._ScanMode": "通道 1.设备 1._System._ScanMode",
+    "通道 1.设备 1._System._ScanRateMs": "通道 1.设备 1._System._ScanRateMs",
+    "通道 1.设备 1._System._SecondsInError": "通道 1.设备 1._System._SecondsInError",
+    "通道 1.设备 1._System._Simulated": "通道 1.设备 1._System._Simulated",
+    "通道 1.设备 1.标记 1": "通道 1.设备 1.标记 1",
+    "通道 1.设备 1.标记 2": "通道 1.设备 1.标记 2",
+    "通道 2._System._Description": "通道 2._System._Description",
+    "通道 2._System._EnableDiagnostics": "通道 2._System._EnableDiagnostics",
+    "通道 2._System._WriteOptimizationDutyCycle": "通道 2._System._WriteOptimizationDutyCycle"
+  }
 }

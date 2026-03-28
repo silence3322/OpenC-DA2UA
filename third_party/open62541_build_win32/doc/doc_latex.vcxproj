@@ -1,0 +1,1812 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>ARM64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B289CE97-843F-303B-A185-5AD986208CFE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>doc_latex</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\client.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/client.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client_subscriptions.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client_highlevel.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client_highlevel_async.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/client.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_subscriptions.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_highlevel.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_highlevel_async.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\client.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/client.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client_subscriptions.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client_highlevel.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client_highlevel_async.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/client.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_subscriptions.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_highlevel.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_highlevel_async.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\client.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/client.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client_subscriptions.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client_highlevel.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client_highlevel_async.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/client.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_subscriptions.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_highlevel.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_highlevel_async.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\client.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/client.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client_subscriptions.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client_highlevel.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/client_highlevel_async.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/client.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_subscriptions.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_highlevel.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\client_highlevel_async.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\client.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\common.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/common.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/common.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/common.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\common.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\common.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/common.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/common.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/common.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\common.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\common.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/common.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/common.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/common.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\common.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\common.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/common.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/common.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/common.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\common.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\common.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\plugin_accesscontrol.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/plugin_accesscontrol.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/accesscontrol.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_accesscontrol.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\accesscontrol.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_accesscontrol.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/plugin_accesscontrol.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/accesscontrol.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_accesscontrol.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\accesscontrol.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_accesscontrol.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/plugin_accesscontrol.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/accesscontrol.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_accesscontrol.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\accesscontrol.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_accesscontrol.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/plugin_accesscontrol.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/accesscontrol.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_accesscontrol.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\accesscontrol.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_accesscontrol.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\plugin_certificategroup.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/plugin_certificategroup.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/certificategroup.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_certificategroup.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\certificategroup.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_certificategroup.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/plugin_certificategroup.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/certificategroup.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_certificategroup.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\certificategroup.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_certificategroup.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/plugin_certificategroup.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/certificategroup.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_certificategroup.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\certificategroup.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_certificategroup.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/plugin_certificategroup.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/certificategroup.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_certificategroup.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\certificategroup.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_certificategroup.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\plugin_eventloop.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/plugin_eventloop.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/eventloop.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_eventloop.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\eventloop.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_eventloop.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/plugin_eventloop.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/eventloop.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_eventloop.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\eventloop.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_eventloop.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/plugin_eventloop.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/eventloop.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_eventloop.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\eventloop.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_eventloop.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/plugin_eventloop.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/eventloop.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_eventloop.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\eventloop.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_eventloop.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\plugin_log.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/plugin_log.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/log.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_log.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\log.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_log.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/plugin_log.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/log.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_log.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\log.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_log.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/plugin_log.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/log.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_log.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\log.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_log.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/plugin_log.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/log.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_log.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\log.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_log.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\plugin_nodestore.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/plugin_nodestore.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/nodestore.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_nodestore.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\nodestore.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_nodestore.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/plugin_nodestore.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/nodestore.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_nodestore.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\nodestore.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_nodestore.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/plugin_nodestore.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/nodestore.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_nodestore.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\nodestore.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_nodestore.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/plugin_nodestore.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/nodestore.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_nodestore.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\nodestore.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_nodestore.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\plugin_securitypolicy.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/plugin_securitypolicy.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/securitypolicy.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_securitypolicy.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\securitypolicy.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_securitypolicy.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/plugin_securitypolicy.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/securitypolicy.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_securitypolicy.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\securitypolicy.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_securitypolicy.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/plugin_securitypolicy.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/securitypolicy.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_securitypolicy.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\securitypolicy.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_securitypolicy.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/plugin_securitypolicy.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/securitypolicy.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_securitypolicy.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\securitypolicy.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_securitypolicy.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\plugin_servercomponent.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/plugin_servercomponent.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/servercomponent.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_servercomponent.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\servercomponent.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_servercomponent.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/plugin_servercomponent.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/servercomponent.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_servercomponent.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\servercomponent.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_servercomponent.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/plugin_servercomponent.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/servercomponent.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_servercomponent.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\servercomponent.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_servercomponent.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/plugin_servercomponent.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/plugin/servercomponent.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/plugin_servercomponent.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\plugin\servercomponent.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_servercomponent.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\pubsub.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/pubsub.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/server_pubsub.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/pubsub.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/pubsub.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\server_pubsub.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\pubsub.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\pubsub.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/pubsub.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/server_pubsub.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/pubsub.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/pubsub.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\server_pubsub.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\pubsub.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\pubsub.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/pubsub.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/server_pubsub.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/pubsub.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/pubsub.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\server_pubsub.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\pubsub.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\pubsub.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/pubsub.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/server_pubsub.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/pubsub.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/pubsub.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\server_pubsub.h;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\pubsub.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\pubsub.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\server.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/server.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/server.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/server.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\server.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\server.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/server.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/server.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/server.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\server.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\server.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/server.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/server.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/server.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\server.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\server.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/server.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/server.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/server.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\server.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\server.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\statuscodes.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/statuscodes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/src_generated/open62541/statuscodes.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/statuscodes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\statuscodes.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\statuscodes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/statuscodes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/src_generated/open62541/statuscodes.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/statuscodes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\statuscodes.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\statuscodes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/statuscodes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/src_generated/open62541/statuscodes.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/statuscodes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\statuscodes.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\statuscodes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/statuscodes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/src_generated/open62541/statuscodes.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/statuscodes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\statuscodes.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\statuscodes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_client_firststeps.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_client_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_client_firststeps.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_client_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_client_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_client_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_client_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_client_firststeps.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_client_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_client_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_client_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_client_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_client_firststeps.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_client_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_client_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_client_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_client_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_client_firststeps.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_client_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_client_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_client_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_datatypes.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_datatypes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_datatypes.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_datatypes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_datatypes.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_datatypes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_datatypes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_datatypes.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_datatypes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_datatypes.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_datatypes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_datatypes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_datatypes.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_datatypes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_datatypes.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_datatypes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_datatypes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_datatypes.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_datatypes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_datatypes.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_datatypes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_pubsub_publish.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_pubsub_publish.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/pubsub/tutorial_pubsub_publish.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_pubsub_publish.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\pubsub\tutorial_pubsub_publish.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_publish.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_pubsub_publish.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/pubsub/tutorial_pubsub_publish.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_pubsub_publish.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\pubsub\tutorial_pubsub_publish.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_publish.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_pubsub_publish.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/pubsub/tutorial_pubsub_publish.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_pubsub_publish.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\pubsub\tutorial_pubsub_publish.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_publish.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_pubsub_publish.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/pubsub/tutorial_pubsub_publish.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_pubsub_publish.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\pubsub\tutorial_pubsub_publish.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_publish.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_pubsub_subscribe.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_pubsub_subscribe.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/pubsub/tutorial_pubsub_subscribe.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_pubsub_subscribe.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\pubsub\tutorial_pubsub_subscribe.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_subscribe.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_pubsub_subscribe.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/pubsub/tutorial_pubsub_subscribe.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_pubsub_subscribe.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\pubsub\tutorial_pubsub_subscribe.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_subscribe.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_pubsub_subscribe.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/pubsub/tutorial_pubsub_subscribe.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_pubsub_subscribe.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\pubsub\tutorial_pubsub_subscribe.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_subscribe.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_pubsub_subscribe.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/pubsub/tutorial_pubsub_subscribe.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_pubsub_subscribe.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\pubsub\tutorial_pubsub_subscribe.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_subscribe.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_server_alarms_conditions.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_server_alarms_conditions.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_alarms_conditions.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_alarms_conditions.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_alarms_conditions.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_alarms_conditions.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_server_alarms_conditions.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_alarms_conditions.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_alarms_conditions.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_alarms_conditions.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_alarms_conditions.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_server_alarms_conditions.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_alarms_conditions.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_alarms_conditions.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_alarms_conditions.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_alarms_conditions.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_server_alarms_conditions.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_alarms_conditions.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_alarms_conditions.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_alarms_conditions.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_alarms_conditions.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_server_datasource.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_server_datasource.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_datasource.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_datasource.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_datasource.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_datasource.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_server_datasource.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_datasource.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_datasource.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_datasource.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_datasource.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_server_datasource.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_datasource.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_datasource.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_datasource.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_datasource.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_server_datasource.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_datasource.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_datasource.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_datasource.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_datasource.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_server_events.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_server_events.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_events.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_events.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_events.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_events.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_server_events.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_events.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_events.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_events.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_events.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_server_events.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_events.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_events.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_events.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_events.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_server_events.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_events.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_events.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_events.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_events.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_server_firststeps.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_server_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_firststeps.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_server_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_firststeps.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_server_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_firststeps.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_server_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_firststeps.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_server_method.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_server_method.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_method.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_method.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_method.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_method.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_server_method.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_method.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_method.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_method.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_method.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_server_method.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_method.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_method.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_method.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_method.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_server_method.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_method.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_method.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_method.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_method.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_server_monitoreditems.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_server_monitoreditems.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_monitoreditems.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_monitoreditems.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_monitoreditems.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_monitoreditems.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_server_monitoreditems.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_monitoreditems.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_monitoreditems.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_monitoreditems.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_monitoreditems.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_server_monitoreditems.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_monitoreditems.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_monitoreditems.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_monitoreditems.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_monitoreditems.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_server_monitoreditems.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_monitoreditems.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_monitoreditems.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_monitoreditems.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_monitoreditems.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_server_object.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_server_object.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_object.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_object.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_object.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_object.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_server_object.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_object.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_object.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_object.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_object.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_server_object.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_object.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_object.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_object.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_object.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_server_object.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_object.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_object.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_object.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_object.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_server_variable.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_server_variable.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_variable.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_variable.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_variable.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variable.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_server_variable.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_variable.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_variable.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_variable.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variable.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_server_variable.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_variable.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_variable.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_variable.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variable.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_server_variable.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_variable.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_variable.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_variable.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variable.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\tutorial_server_variabletype.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/tutorial_server_variabletype.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_variabletype.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_variabletype.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_variabletype.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variabletype.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/tutorial_server_variabletype.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_variabletype.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_variabletype.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_variabletype.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variabletype.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/tutorial_server_variabletype.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_variabletype.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_variabletype.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_variabletype.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variabletype.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/tutorial_server_variabletype.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/examples/tutorial_server_variabletype.c C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/tutorial_server_variabletype.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\examples\tutorial_server_variabletype.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variabletype.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\types.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/types.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/types.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/types.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\types.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/types.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/types.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/types.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\types.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/types.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/types.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/types.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\types.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/types.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/types.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/types.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\types.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\types_generated.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/types_generated.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/src_generated/open62541/types_generated.rst C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\types_generated.rst;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types_generated.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/types_generated.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/src_generated/open62541/types_generated.rst C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\types_generated.rst;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types_generated.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/types_generated.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/src_generated/open62541/types_generated.rst C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\types_generated.rst;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types_generated.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/types_generated.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/src_generated/open62541/types_generated.rst C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\src_generated\open62541\types_generated.rst;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types_generated.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\44392a19f75152dc574bb2cb8c3ec559\util.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../doc_src/util.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/util.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/util.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\util.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\util.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../doc_src/util.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/util.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/util.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\util.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\util.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../doc_src/util.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/util.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/util.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\util.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\util.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../doc_src/util.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\liuhao\AppData\Local\Programs\Python\Python312-arm64\python.exe C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/tools/c2rst.py C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/include/open62541/util.h C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src/util.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\c2rst.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\include\open62541\util.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\util.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\CMakeFiles\51c530d149bf0dd5986cf7e4bb1a7faf\doc_latex.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building LaTeX sources for documentation with Sphinx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+SPHINX_EXECUTABLE-NOTFOUND -b latex C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_latex
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types_generated.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\common.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\util.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\statuscodes.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\server.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\pubsub.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\client.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_accesscontrol.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_log.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_nodestore.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_eventloop.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_certificategroup.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_securitypolicy.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_servercomponent.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_datatypes.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_firststeps.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variable.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variabletype.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_datasource.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_events.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_alarms_conditions.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_monitoreditems.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_object.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_method.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_client_firststeps.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_publish.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_subscribe.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\building.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\core_concepts.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\eventfilter_query;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\index.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\nodeset_compiler.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\nodeset_compiler_pump.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\open62541.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\open62541_html.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\requirements.txt;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\toc.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorials.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\ua-wireshark-pubsub.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\ua-wireshark.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc\CMakeFiles\doc_latex</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building LaTeX sources for documentation with Sphinx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+SPHINX_EXECUTABLE-NOTFOUND -b latex C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_latex
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types_generated.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\common.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\util.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\statuscodes.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\server.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\pubsub.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\client.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_accesscontrol.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_log.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_nodestore.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_eventloop.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_certificategroup.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_securitypolicy.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_servercomponent.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_datatypes.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_firststeps.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variable.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variabletype.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_datasource.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_events.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_alarms_conditions.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_monitoreditems.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_object.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_method.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_client_firststeps.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_publish.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_subscribe.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\building.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\core_concepts.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\eventfilter_query;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\index.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\nodeset_compiler.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\nodeset_compiler_pump.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\open62541.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\open62541_html.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\requirements.txt;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\toc.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorials.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\ua-wireshark-pubsub.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\ua-wireshark.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc\CMakeFiles\doc_latex</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building LaTeX sources for documentation with Sphinx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+SPHINX_EXECUTABLE-NOTFOUND -b latex C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_latex
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types_generated.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\common.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\util.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\statuscodes.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\server.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\pubsub.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\client.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_accesscontrol.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_log.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_nodestore.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_eventloop.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_certificategroup.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_securitypolicy.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_servercomponent.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_datatypes.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_firststeps.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variable.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variabletype.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_datasource.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_events.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_alarms_conditions.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_monitoreditems.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_object.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_method.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_client_firststeps.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_publish.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_subscribe.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\building.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\core_concepts.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\eventfilter_query;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\index.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\nodeset_compiler.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\nodeset_compiler_pump.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\open62541.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\open62541_html.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\requirements.txt;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\toc.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorials.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\ua-wireshark-pubsub.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\ua-wireshark.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc\CMakeFiles\doc_latex</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building LaTeX sources for documentation with Sphinx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+SPHINX_EXECUTABLE-NOTFOUND -b latex C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_src C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc_latex
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types_generated.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\types.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\common.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\util.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\statuscodes.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\server.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\pubsub.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\client.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_accesscontrol.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_log.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_nodestore.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_eventloop.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_certificategroup.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_securitypolicy.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin_servercomponent.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_datatypes.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_firststeps.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variable.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_variabletype.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_datasource.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_events.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_alarms_conditions.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_monitoreditems.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_object.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_server_method.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_client_firststeps.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_publish.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorial_pubsub_subscribe.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\building.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\core_concepts.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\eventfilter_query;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\index.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\nodeset_compiler.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\nodeset_compiler_pump.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\open62541.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\open62541_html.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\plugin.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\requirements.txt;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\toc.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\tutorials.rst;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\ua-wireshark-pubsub.png;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc_src\ua-wireshark.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc\CMakeFiles\doc_latex</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\doc\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32 --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-4.2\Modules\FindLATEX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\doc\conf.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\FindSphinx.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32 --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-4.2\Modules\FindLATEX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\doc\conf.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\FindSphinx.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32 --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-4.2\Modules\FindLATEX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\doc\conf.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\FindSphinx.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_src -BC:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32 --check-stamp-file C:/work/中储粮/DA2UA/OpenC-DA2UA/third_party/open62541_build_win32/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-4.2\Modules\FindLATEX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\doc\conf.py;C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_src\tools\cmake\FindSphinx.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\doc\CMakeFiles\doc_latex">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\ZERO_CHECK.vcxproj">
+      <Project>{9CD380D3-2236-30DC-B48B-577588A010BC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\中储粮\DA2UA\OpenC-DA2UA\third_party\open62541_build_win32\open62541.vcxproj">
+      <Project>{7947DF27-7FA2-32C6-BCD8-23608EFBD016}</Project>
+      <Name>open62541</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

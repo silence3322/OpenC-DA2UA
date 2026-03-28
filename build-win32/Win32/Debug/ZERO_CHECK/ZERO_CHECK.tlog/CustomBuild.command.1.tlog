@@ -1,0 +1,10 @@
+^C:\WORK\中储粮\DA2UA\OPENC-DA2UA\BUILD-WIN32\CMAKEFILES\CAE9F8FA8EE92855E1B96469687AB405\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/中储粮/DA2UA/OpenC-DA2UA -BC:/work/中储粮/DA2UA/OpenC-DA2UA/build-win32 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/work/中储粮/DA2UA/OpenC-DA2UA/build-win32/OpenC-DA2UA.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
