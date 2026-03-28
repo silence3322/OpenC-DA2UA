@@ -1,0 +1,7 @@
+logs/*.log
+build/
+*.o
+*.a
+opcda2ua
+test_config
+test_logger
